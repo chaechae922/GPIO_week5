@@ -18,6 +18,10 @@ Raspberry Pi의 GPIO 핀을 사용하여 4개의 LED로 1부터 8까지의 숫�
 
 ## 회로 구성 및 핀 맵
 
+![image](https://github.com/user-attachments/assets/482a8f0e-7e8f-45b2-ba1b-fe3c4738c9b1)
+![image](https://github.com/user-attachments/assets/5dac8f83-b9c0-4d1b-badf-ab516a2d72cc)
+
+
 **핀 배정 (BCM 모드 기준):**  
 - LED1 (비트 0, 2^0): GPIO 17  
 - LED2 (비트 1, 2^1): GPIO 27  

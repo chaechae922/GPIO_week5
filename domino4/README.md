@@ -16,10 +16,10 @@
 
 
 - **핀 맵 설명:**
-  - **LED1 :** Raspberry Pi GPIO 17  
-  - **LED2 :** Raspberry Pi GPIO 27  
-  - **LED3 :** Raspberry Pi GPIO 22  
-  - **LED4 :** Raspberry Pi GPIO 5
+  - **LED1 :** GPIO 17  
+  - **LED2 :** GPIO 27  
+  - **LED3 :** GPIO 22  
+  - **LED4 :** GPIO 5
 
 **회로 연결 방법:**
 1. 각 LED의 **양극**에 220Ω 저항을 연결합니다.

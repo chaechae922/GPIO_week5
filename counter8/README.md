@@ -12,7 +12,7 @@ Raspberry Pi의 GPIO 핀을 사용하여 4개의 LED로 1부터 8까지의 숫�
 
 ## 하드웨어 요구 사항
 
-- Raspberry Pi (모델 3B, 4, 5 등)
+- Raspberry Pi 5
 - LED 4개
 - 220Ω 저항 4개 (LED 보호용)
 - 브레드보드 및 점퍼 와이어

@@ -1,4 +1,4 @@
-# LED Binary Counter
+# LED Binary Counter8
 
 Raspberry Pi의 GPIO 핀을 사용하여 4개의 LED로 1부터 8까지의 숫자를 이진수 형태로 표시
 - **유튜브 :https://youtu.be/026rg5-pR_U?si=MwPw7eyBq3tuOEe3**

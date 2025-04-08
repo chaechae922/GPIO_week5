@@ -2,6 +2,8 @@
 
 4개의 LED가 도미노처럼 순서대로 켜졌다 꺼지는 효과를 구현
 
+## 유튜브 링크: 
+
 ## 하드웨어 요구 사항
 
 - **Raspberry Pi 5**
@@ -11,8 +13,8 @@
 
 ## 회로 구성 및 핀 맵
 
-아래 그림은 LED 회로 구성 예시를 보여줍니다.
-
+![image](https://github.com/user-attachments/assets/482a8f0e-7e8f-45b2-ba1b-fe3c4738c9b1)
+![image](https://github.com/user-attachments/assets/5dac8f83-b9c0-4d1b-badf-ab516a2d72cc)
 
 
 - **핀 맵 설명:**

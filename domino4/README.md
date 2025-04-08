@@ -1,0 +1,27 @@
+# LED Domino
+
+4개의 LED가 도미노처럼 순서대로 켜졌다 꺼지는 효과를 구현
+
+## 하드웨어 요구 사항
+
+- **Raspberry Pi 5**
+- **LED 4개**
+- **220Ω 저항 4개** (각 LED에 1개씩 사용)
+- 브레드보드 및 점퍼 와이어
+
+## 회로 구성 및 핀 맵
+
+아래 그림은 LED 회로 구성 예시를 보여줍니다.
+
+
+
+- **핀 맵 설명:**
+  - **LED1 :** Raspberry Pi GPIO 17  
+  - **LED2 :** Raspberry Pi GPIO 27  
+  - **LED3 :** Raspberry Pi GPIO 22  
+  - **LED4 :** Raspberry Pi GPIO 5
+
+**회로 연결 방법:**
+1. 각 LED의 **양극**에 220Ω 저항을 연결합니다.
+2. 각 저항의 반대쪽을 Raspberry Pi의 해당 GPIO 핀(위의 핀맵 참조)에 연결합니다.
+3. 각 LED의 **음극**은 모두 공통으로 Raspberry Pi의 GND에 연결합니다.

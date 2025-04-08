@@ -2,7 +2,7 @@
 
 4개의 LED가 도미노처럼 순서대로 켜졌다 꺼지는 효과를 구현
 
-**유튜브 :  **
+- **유튜브:**
 
 ## 하드웨어 요구 사항
 
@@ -17,7 +17,7 @@
 ![image](https://github.com/user-attachments/assets/5dac8f83-b9c0-4d1b-badf-ab516a2d72cc)
 
 
-- **핀 맵 설명:**
+- **핀 맵:**
   - **LED1 :** GPIO 17  
   - **LED2 :** GPIO 27  
   - **LED3 :** GPIO 22  

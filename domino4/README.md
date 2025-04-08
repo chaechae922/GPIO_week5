@@ -2,7 +2,7 @@
 
 4개의 LED가 도미노처럼 순서대로 켜졌다 꺼지는 효과를 구현
 
-- **유튜브:https://youtu.be/L6J4AVwR3FE?si=RFgH2et6i0DdTtqx**
+- **유튜브: https://youtu.be/L6J4AVwR3FE?si=RFgH2et6i0DdTtqx**
 
 ## 하드웨어 요구 사항
 

@@ -1,7 +1,7 @@
 import RPi.GPIO as GPIO
 import time
 
-# 사용할 LED가 연결된 GPIO 핀 번호 (BCM 모드 기준)
+# 사용할 LED가 연결된 GPIO 핀 번호
 LED_PINS = [17, 27, 22, 5]
 
 # GPIO 초기화: BCM 모드로 설정
@@ -17,7 +17,7 @@ try:
         # 각 LED를 순서대로 켜고 잠시 대기한 후 꺼짐
         for pin in LED_PINS:
             GPIO.output(pin, GPIO.HIGH)
-            time.sleep(1)  # 0.5초간 LED ON
+            time.sleep(1)  # 0.1초간 LED ON
             GPIO.output(pin, GPIO.LOW)
 except KeyboardInterrupt:
     # Ctrl+C 입력 시 안전하게 GPIO 해제

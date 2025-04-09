@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+# 사용할 LED 핀 번호
+LED_PINS=(17 27 22 5)
+
+for pin in "${LED_PINS[@]}"; do
+  pinctrl set "$pin" op    # 출력 모드로 설정
+  pinctrl set "$pin" dl    # 초기값: LED OFF (low)
+done
+
+# 무한 루프: 각 핀을 1초간 켠 뒤, 다시 1초간 끄는 동작을 순서대로 반복
+while true
+do
+  for pin in "${LED_PINS[@]}"; do
+  
+    # LED ON
+    pinctrl set "$pin" dh
+    sleep 1
+
+    # LED OFF
+    pinctrl set "$pin" dl
+  done
+done

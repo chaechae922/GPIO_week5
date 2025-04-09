@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# LED에 연결된 GPIO 핀 (BCM 번호 기준)
+LED_PINS=(17 27 22 5)
+
+# 각 핀을 출력 모드(op)로 설정하고 초기값은 낮은 상태(dl)로 설정
+for pin in "${LED_PINS[@]}"; do
+  pinctrl set "$pin" op    # 핀을 출력 모드로 설정
+  pinctrl set "$pin" dl    # 초기 상태: LED OFF (low)
+done
+
+# 무한 루프: 1부터 8까지 숫자를 LED의 이진 표현으로 표시
+while true; do
+  for number in $(seq 1 8); do
+    # 각 LED에 대해, number의 이진수에서 각 비트(0~3)에 해당하는 상태로 LED 제어
+    for bit in {0..3}; do
+      # bash 산술 확장을 사용하여 해당 비트가 1이면 LED ON, 아니면 LED OFF
+      if (( number & (1 << bit) )); then
+        pinctrl set "${LED_PINS[bit]}" dh   # LED ON (high)
+      else
+        pinctrl set "${LED_PINS[bit]}" dl   # LED OFF (low)
+      fi
+    done
+    sleep 1  # 해당 숫자 상태 1초 유지
+  done
+done

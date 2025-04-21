@@ -1,6 +1,7 @@
 # Raspberry Pi 버튼으로 LED 제어하기_2
 
 Raspberry Pi에서 버튼을 **누를 때마다** 4개의 LED 상태를 **반전(Toggle)** 시키는 기능
+
 `gpiozero` 라이브러리를 사용
 
 ---

@@ -1,6 +1,7 @@
 # Raspberry Pi 버튼으로 LED 제어하기_1
 
 Raspberry Pi에서 버튼을 눌렀을 때 4개의 LED를 **켜고**, 버튼에서 손을 떼면 **끄는** 기능
+
 `gpiozero` 라이브러리를 사용하여 작성
 
 ---

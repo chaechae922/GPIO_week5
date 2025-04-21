@@ -4,6 +4,8 @@
 
 버튼을 누를 때마다 값이 1씩 증가하고, 15 이후에는 다시 0부터 순환
 
+**유튜브 : https://youtube.com/shorts/4Z0EnHxkKKo?si=F4wRjkgRUGhEJI2U**
+
 ---
 
 ## 📌 회로 연결

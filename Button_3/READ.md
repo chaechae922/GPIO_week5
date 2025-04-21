@@ -4,6 +4,8 @@ Raspberry Pi에서 버튼을 **한 번 누르면**, 4개의 LED가 **1초 간격
 
 `gpiozero`와 `time.sleep()`을 사용
 
+**유튜브 : https://youtu.be/ppoUVxWQJzo?si=3J-W7pOx-Vqt28ka**
+
 ---
 
 ## 📌 회로 연결
